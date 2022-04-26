@@ -1,0 +1,35 @@
+
+/* *{
+  margin: 0;
+  padding: 0;
+} */
+
+body {
+  background-color: black;
+}
+
+.container_nav {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.background_img {
+  background-image: url('../images/mask.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+
+.message_logo {
+  text-align: left;
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
